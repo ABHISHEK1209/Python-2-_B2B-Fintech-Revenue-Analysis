@@ -3,7 +3,7 @@
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-orange)
 ![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Visualization-teal)
-![License](https://img.shields.io/badge/License-MIT-green)
+![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
 
 An end-to-end commercial analytics framework built to diagnose customer unit economics, expansion velocity, involuntary churn leakage, and cohort decay across 1,000 enterprise accounts in a B2B FinTech / SaaS environment.
 
@@ -72,17 +72,3 @@ The synthetic dataset (`fintech_b2b_unit_economics.csv`) contains 1,000 accounts
 4. **Enforce Onboarding Milestones:** Because cohort decay is concentrated in months 3 through 9, establish an SLA-driven 60-day Time-to-First-Value (TTFV) target for solutions engineering to secure long-term platform integration.
 
 ---
-
-## Repository Structure
-
-```text
-├── data/
-│   └── fintech_b2b_unit_economics.csv      # Generated 1,000-account clean dataset
-├── scripts/
-│   ├── generate_data.py                    # Script to build synthetic dataset
-│   └── run_analytics.py                    # Complete analytics suite and visualizations
-├── notebooks/
-│   └── b2b_fintech_revenue_analysis.ipynb  # Interactive walkthrough of all 10 analyses
-├── docs/
-│   └── executive_brief.md                  # Comprehensive business findings and inferences
-└── README.md                               # Project documentation
